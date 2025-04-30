@@ -1,19 +1,20 @@
-EX 1 Display operator precedence in the infix expression.
-DATE:29-2025
-AIM:
+# EX 1 Display operator precedence in the infix expression.
+## DATE:26-2-2025
+## AIM:
 To write a C program to find and display the priority of the operator in the given Postfix expression
 
-Algorithm
-Start the program.Define the priority() function to return the priority of operators.
-Initialize the string containing operators and operands.
-Loop through each character in the string.
-For each operator, call the priority() function to determine its priority.
-Print the operator and its corresponding priority level.
-End the program.
-Program:
+## Algorithm
+1. Start the program.Define the priority() function to return the priority of operators.
+2. Initialize the string containing operators and operands. 
+3. Loop through each character in the string. 
+4. For each operator, call the priority() function to determine its priority. 
+5. Print the operator and its corresponding priority level.
+6. End the program. 
+
+## Program:
+```
 /*
 Program to find and display the priority of the operator in the given Postfix expression
-
 
 #include <stdio.h> 
 #include<string.h> 
@@ -70,8 +71,13 @@ return 0;
 }
  
 */
-Output:
-image
+```
 
-Result:
+## Output:
+![image](https://github.com/user-attachments/assets/e3c9d048-b18e-431f-bb5e-d14c1723b9bf)
+
+
+
+
+## Result:
 Thus the C program to find and display the priority of the operator in the given Postfix expression is implemented successfully
